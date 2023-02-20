@@ -1,0 +1,111 @@
+.main {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  padding-top: 20vh;
+  padding-bottom: 26vh;
+  background-color: #9caef7;
+
+}
+
+.sub-main {
+  background-color: rgb(111, 212, 219);
+  display: flex;
+  justify-content: center;
+  height: 52vh;
+  width: 35vw;
+
+  border-radius: 100px;
+
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+
+
+
+
+/* input fields */
+input {
+  width: 300px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: #fff;
+  border: none;
+}
+
+.inp {
+
+  padding-bottom: 10px;
+}
+
+.name {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+
+
+
+
+/* topic */
+h1 {
+  font-size: 50px;
+}
+
+
+
+
+
+/* login button */
+button {
+  width: 175px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: #b103fc;
+  color: white;
+  font-size: 25px;
+  border: none;
+}
+
+.login-button {
+  padding-top: 25px;
+}
+
+
+
+
+
+
+/* sign up link */
+a {
+  color: blue;
+  font-size: 23px;
+  font-weight: 400;
+
+}
+
+
+
+.label {
+  font-size: 25px;
+  text-align: left;
+  padding-left: 25px;
+}
+
+.txt {
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.submi {
+  width: 175px;
+  height: 50px;
+  border-radius: 60px;
+  background-color: #b103fc;
+  color: white;
+  font-size: 25px;
+  border: none;
+}

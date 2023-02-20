@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/login.css">
+  <script src="/login.js"></script>
+</head>
+
+<body>
+
+  <div class="main">
+
+
+
+    <form>
+      <div class="sub-main">
+        <div>
+
+
+          <!-- {/* topic */} -->
+          <h1>Login </h1>
+
+
+
+          <!-- {/* input fields */} -->
+          <div class='label'>
+            User Name
+          </div>
+          <div class="inp">
+            <input id="unn" type="text" ref={email} placeholder="user name" class="name" />
+          </div>
+          <div class='label'>
+            Password
+          </div>
+          <div class="inp">
+            <input id="pwd" type="password" ref={password} placeholder="password" class="name" />
+          </div>
+
+
+          <!-- {/* login button */} -->
+          <div class="login-button">
+           
+            <input type="submit" class="submi" onclick="log()"/>
+          </div>
+          <div class='txt'>
+            If you don't have an account
+          </div>
+
+          <!-- /* sign uo link */ -->
+
+          <a href="/signup.html">sign in</a>
+
+
+
+        </div>
+      </div>
+    </form>
+
+
+  </div>
+
+ 
+</body>
+
+</html>
